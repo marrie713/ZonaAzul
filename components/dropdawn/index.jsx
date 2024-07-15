@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 
@@ -11,7 +12,9 @@ function ButtonDarkExample() {
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
-          <Dropdown.Item href="#/action-1" active> Action </Dropdown.Item>
+          <Dropdown.Item href="#/action-1" active>
+            Action
+          </Dropdown.Item>
           <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
           <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
         </Dropdown.Menu>
@@ -24,7 +27,9 @@ function ButtonDarkExample() {
         className="mt-2"
         data-bs-theme="dark"
       >
-        <Dropdown.Item href="#/action-1" active> Action </Dropdown.Item>
+        <Dropdown.Item href="#/action-1" active>
+          Action
+        </Dropdown.Item>
         <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
         <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
       </DropdownButton>
