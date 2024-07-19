@@ -14,7 +14,8 @@ export const StyleAluguel = StyleSheet.create({
         borderRadius: 30,
         padding: 15,
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        marginTop: 200
     },
 
     input:{
@@ -23,5 +24,16 @@ export const StyleAluguel = StyleSheet.create({
         width: 250,
         marginTop: 40,
         borderRadius: 15
+    },
+
+    button: {
+        backgroundColor: '#bef264',
+        height: 60,
+        width: 250,
+        borderRadius: 20,
+        padding: 10,
+        alignItems: 'center',
+        marginTop: 50
+
     },
 })

@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
+import { Text } from 'react-native';
 
 function ButtonDarkExample() {
   return (
@@ -28,7 +28,7 @@ function ButtonDarkExample() {
         data-bs-theme="dark"
       >
         <Dropdown.Item href="#/action-1" active>
-          Action
+        Action
         </Dropdown.Item>
         <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
         <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
